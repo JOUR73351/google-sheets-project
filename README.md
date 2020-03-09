@@ -64,9 +64,9 @@ git push -u origin master
 python -m SimpleHTTPServer 8000
 ```
 
-Then, navigate to `http://localhost:8000` in your browser.
+    Then, navigate to `http://localhost:8000` in your browser.
 
-7. To save a version of your story on GitHub, run the following git commands.
+8. To save a version of your story on GitHub, run the following git commands.
 
 ```
 git add -A
@@ -74,5 +74,5 @@ git commit -m "YOUR-COMMIT-MESSAGE-HERE"
 git push
 ```
 
-8. To publish, go to the settings of your GitHub repo, scroll down to GitHub Pages, and configure the source to the master branch.
+9. To publish, go to the settings of your GitHub repo, scroll down to GitHub Pages, and configure the source to the master branch.
    ![GitHub Pages](assets/ghpages.png)
