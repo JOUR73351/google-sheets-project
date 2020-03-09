@@ -56,7 +56,7 @@ git push -u origin master
 5. Write your pitch in `README.md`.
 
 6. Write your story in and add your assets and charts to `index.html`. Feel free to play around with and change the styles in `style.css`, but you are not required to. Delete the code that you don't need for your story. The story itself should be no less than 150 words and include at least one chart from Datawrapper. You can embed a Datawrapper chart in your story by copying the embed code into your html as I have done in `index.html.`
-   ![Datawrapper](assets/datawrapper.png)
+   ![Datawrapper](assets/datawrapper.png | width=100)
 
 7. You can preview a local version of your story by running a python server.
 
