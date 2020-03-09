@@ -28,16 +28,22 @@ What is the maximum (best) story possible? What's the minimum (fallback) story i
 
 ## How to publish and submit your project
 
-1. Clone a fresh copy of this project.
-   `git clone git@github.com:JOUR73351/google-sheets-project.git NAME-OF-YOUR-PROJECT-HERE`
+1. Make sure you have navigated to your `data-journalism` folder with your terminal first. Clone a fresh copy of this project.
+
+   ```
+   git clone git@github.com:JOUR73351/google-sheets-project.git NAME-OF-YOUR-PROJECT-HERE
+   ```
 
 2. Remove my git tracking from the project
-   ```rm -rf .git`
 
-3. Create a new repository in GitHub called `NAME-OF-YOUR-PROJECT-HERE` with the following settings.
+   ```
+   rm -rf .git
+   ```
+
+3. Create a new repository on GitHub called `NAME-OF-YOUR-PROJECT-HERE` with the following settings.
    ![new repository](assets/newrepo.png)
 
-4. Follow GitHub's instructions for initializing a repo. Make sure you've checked `ssh`.
+4. Run these git commands to initialize the repo. Make sure you've checked `ssh`.
 
 ```
 git init
