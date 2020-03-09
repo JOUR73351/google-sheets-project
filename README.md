@@ -28,7 +28,7 @@ What is the maximum (best) story possible? What's the minimum (fallback) story i
 
 ## How to publish and submit your project
 
-1. Make sure you have navigated to your `data-journalism` folder with your terminal first. Clone a fresh copy of this project.
+1. Make sure you have navigated to your `data-journalism` folder with your terminal first. Clone a fresh copy of this template.
 
    ```
    git clone git@github.com:JOUR73351/google-sheets-project.git NAME-OF-YOUR-PROJECT-HERE
@@ -41,6 +41,7 @@ What is the maximum (best) story possible? What's the minimum (fallback) story i
    ```
 
 3. Create a new repository on GitHub called `NAME-OF-YOUR-PROJECT-HERE` with the following settings.
+   <br>
    <img src="assets/newrepo.png" width="500">
 
 4. Run these git commands to initialize the repo. Make sure you've checked `ssh`.
@@ -56,15 +57,16 @@ git push -u origin master
 5. Write your pitch in `README.md`.
 
 6. Write your story in and add your assets and charts to `index.html`. Feel free to play around with and change the styles in `style.css`, but you are not required to. Delete the code that you don't need for your story. The story itself should be no less than 150 words and include at least one chart from Datawrapper. You can embed a Datawrapper chart in your story by copying the embed code into your html as I have done in `index.html.`
+   <br>
    <img src="assets/datawrapper.png" width="500">
 
 7. You can preview a local version of your story by running a python server.
 
-```
-python -m SimpleHTTPServer 8000
-```
+   ```
+   python -m SimpleHTTPServer 8000
+   ```
 
-Then, navigate to `http://localhost:8000` in your browser.
+   Then, navigate to `http://localhost:8000` in your browser.
 
 8. To save a version of your story on GitHub, run the following git commands.
 
