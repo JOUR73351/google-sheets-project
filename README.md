@@ -41,7 +41,7 @@ What is the maximum (best) story possible? What's the minimum (fallback) story i
    ```
 
 3. Create a new repository on GitHub called `NAME-OF-YOUR-PROJECT-HERE` with the following settings.
-   ![new repository](assets/newrepo.png)
+   <img src="assets/newrepo.png" width="500">
 
 4. Run these git commands to initialize the repo. Make sure you've checked `ssh`.
 
@@ -56,7 +56,7 @@ git push -u origin master
 5. Write your pitch in `README.md`.
 
 6. Write your story in and add your assets and charts to `index.html`. Feel free to play around with and change the styles in `style.css`, but you are not required to. Delete the code that you don't need for your story. The story itself should be no less than 150 words and include at least one chart from Datawrapper. You can embed a Datawrapper chart in your story by copying the embed code into your html as I have done in `index.html.`
-   <img src="assets/datawrapper.png" width="300">
+   <img src="assets/datawrapper.png" width="500">
 
 7. You can preview a local version of your story by running a python server.
 
@@ -75,4 +75,4 @@ git push
 ```
 
 8. To publish, go to the settings of your GitHub repo, scroll down to GitHub Pages, and configure the source to the master branch.
-   ![GitHub Pages](assets/ghpages.png)
+   <img src="assets/ghpages.png" width="500">
