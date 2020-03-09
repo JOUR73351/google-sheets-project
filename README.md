@@ -75,4 +75,4 @@ git push
 ```
 
 8. To publish, go to the settings of your GitHub repo, scroll down to GitHub Pages, and configure the source to the master branch.
-   <img src="assets/ghpages.png" width="500">
+   ![GitHub Pages](assets/ghpages.png)
