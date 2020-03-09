@@ -64,7 +64,7 @@ git push -u origin master
 python -m SimpleHTTPServer 8000
 ```
 
-    Then, navigate to `http://localhost:8000` in your browser.
+Then, navigate to `http://localhost:8000` in your browser.
 
 8. To save a version of your story on GitHub, run the following git commands.
 
