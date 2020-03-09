@@ -14,7 +14,7 @@ What else has been done on this topic (provide links)? How is your angle differe
 - [Related headline (NPR)](https://www.nytimes.com/2020/03/09/upshot/coronavirus-oil-prices-bond-yields-recession.html)
 - [Related headline (WNYC)](https://www.nytimes.com/2020/03/09/upshot/coronavirus-oil-prices-bond-yields-recession.html)
 
-Describe how and where you found the data with links and put the raw data (csv, xls, pdf) in a folder called `data` in this folder and/or provide a [link](https://docs.google.com/spreadsheets/d/1IdeVJv7SpbKwD1jMfOlXvIpx-ZwitU-3Y6c4iLqGu7c/edit#gid=1257216346) to your Google Sheet. Show your data work in your Google Sheet – this could be sorting, aggregating, filtering, pivot tables, vlookups, etc.
+Describe how and where you found the data with links. Put the raw data (csv, xls, pdf) in a folder called `data` in this folder, and provide a [link](https://docs.google.com/spreadsheets/d/1IdeVJv7SpbKwD1jMfOlXvIpx-ZwitU-3Y6c4iLqGu7c/edit#gid=1257216346) to your Google Sheet. Show your data work in this Google Sheet – this could be sorting, aggregating, filtering, pivot tables, vlookups, etc.
 
 Write up at least one or up to three findings from your analysis based on the data you found.
 
@@ -49,9 +49,18 @@ git push -u origin master
 
 5. Write your pitch in `README.md`.
 
-6. Write your story in and add your assets and charts to `index.html`. Feel free to play around with and change the styles, but you are not required to. Delete the code that you don't need for your story.
+6. Write your story in and add your assets and charts to `index.html`. Feel free to play around with and change the styles in `style.css`, but you are not required to. Delete the code that you don't need for your story. The story itself should be no less than 150 words and include at least one chart from Datawrapper. You can embed a Datawrapper chart in your story by copying the embed code into your html as I have done in `index.html.`
+   ![Datawrapper](assets/datawrapper.png)
 
-7. When making changes, run the following git commands.
+7. You can preview a local version of your story by running a python server.
+
+```
+python -m SimpleHTTPServer 8000
+```
+
+Then, navigate to `http://localhost:8000` in your browser.
+
+7. To save a version of your story on GitHub, run the following git commands.
 
 ```
 git add -A
