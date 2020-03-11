@@ -46,13 +46,13 @@ What is the maximum (best) story possible? What's the minimum (fallback) story i
 
 4. Run these git commands to initialize the repo. Make sure you've checked `ssh`.
 
-```
-git init
-git add -A
-git commit -m "first commit"
-git remote add origin git@github.com:YOUR-USERNAME-HERE/YOUR-REPO-HERE.git
-git push -u origin master
-```
+   ```
+   git init
+   git add -A
+   git commit -m "first commit"
+   git remote add origin git@github.com:YOUR-USERNAME-HERE/YOUR-REPO-HERE.git
+   git push -u origin master
+   ```
 
 5. Write your pitch in `README.md`.
 
