@@ -70,11 +70,11 @@ git push -u origin master
 
 8. To save a version of your story on GitHub, run the following git commands.
 
-```
-git add -A
-git commit -m "YOUR-COMMIT-MESSAGE-HERE"
-git push
-```
+   ```
+   git add -A
+   git commit -m "YOUR-COMMIT-MESSAGE-HERE"
+   git push
+   ```
 
 9. To publish, go to the settings of your GitHub repo, scroll down to GitHub Pages, and configure the source to the master branch.
    ![GitHub Pages](assets/ghpages.png)
